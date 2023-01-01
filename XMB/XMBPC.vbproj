@@ -1,0 +1,722 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6B4557E0-92D6-4FCB-9863-BBE0490A3A29}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>XMBPC.My.MyApplication</StartupObject>
+    <RootNamespace>XMBPC</RootNamespace>
+    <AssemblyName>XMBPC</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>false</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+    <WarningLevel>0</WarningLevel>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>false</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>xmbpclogogrey.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release x64|AnyCPU'">
+    <DefineTrace>false</DefineTrace>
+    <OutputPath>bin\Release x64\</OutputPath>
+    <Optimize>true</Optimize>
+    <WarningLevel>0</WarningLevel>
+    <NoWarn>
+    </NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>false</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <WarningLevel>0</WarningLevel>
+    <NoWarn>
+    </NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Optimize>true</Optimize>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>false</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <Optimize>true</Optimize>
+    <WarningLevel>0</WarningLevel>
+    <NoWarn>
+    </NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release x64|x64'">
+    <DefineTrace>false</DefineTrace>
+    <OutputPath>bin\x64\Release x64\</OutputPath>
+    <Optimize>true</Optimize>
+    <WarningLevel>0</WarningLevel>
+    <NoWarn>
+    </NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'x86|AnyCPU'">
+    <OutputPath>bin\x86\</OutputPath>
+    <PlatformTarget>x86</PlatformTarget>
+    <WarningLevel>0</WarningLevel>
+    <Optimize>true</Optimize>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'x86|x64'">
+    <OutputPath>bin\x64\x86\</OutputPath>
+    <WarningLevel>0</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <Optimize>true</Optimize>
+    <WarningLevel>0</WarningLevel>
+    <NoWarn>
+    </NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <Optimize>true</Optimize>
+    <WarningLevel>0</WarningLevel>
+    <NoWarn>
+    </NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release x64|x86'">
+    <OutputPath>bin\x86\Release x64\</OutputPath>
+    <Optimize>true</Optimize>
+    <WarningLevel>0</WarningLevel>
+    <NoWarn>
+    </NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'x86|x86'">
+    <OutputPath>bin\x86\x86\</OutputPath>
+    <PlatformTarget>x86</PlatformTarget>
+    <WarningLevel>0</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge">
+      <HintPath>..\..\..\..\Custom Controls\Release\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Controls, Version=2.2.4.0, Culture=neutral, PublicKeyToken=a8ac264d1dc6b9d9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Custom Controls\Release\AForge.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="AxInterop.SHDocVw, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\AxInterop.SHDocVw.dll</HintPath>
+    </Reference>
+    <Reference Include="DiscUtils">
+      <HintPath>..\..\..\..\Custom Controls\DiscUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="gLabel, Version=1.0.8.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Custom Controls\gLabel Code\gLabel\bin\Release\gLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroControls, Version=1.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Custom Controls\MetroControls.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\Custom Controls\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="PSControls, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Custom Controls\PSControls.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="Transitions">
+      <HintPath>F:\Backup\Desk\Transitions.dll</HintPath>
+    </Reference>
+    <Reference Include="UltraID3Lib">
+      <HintPath>F:\Backup\XMB\XMB\bin\Release\UltraID3Lib.dll</HintPath>
+    </Reference>
+    <Reference Include="Zimpler">
+      <HintPath>..\..\..\..\Custom Controls\Zimpler.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\ProcessWatcher.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Classes\ToolStripRend.vb" />
+    <Compile Include="Launchers\Appearence.Designer.vb">
+      <DependentUpon>Appearence.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Launchers\Appearence.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Launchers\Properties.designer.vb">
+      <DependentUpon>Properties.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Launchers\Properties.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Launchers\XMBDesk.Designer.vb">
+      <DependentUpon>XMBDesk.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Launchers\XMBDesk.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\Lockscreen.Designer.vb">
+      <DependentUpon>Lockscreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\Lockscreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setup\NewSetup_SecondPart.Designer.vb">
+      <DependentUpon>NewSetup_SecondPart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Setup\NewSetup_SecondPart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setup\NewSetup.Designer.vb">
+      <DependentUpon>NewSetup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Setup\NewSetup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\DiscExplorer.Designer.vb">
+      <DependentUpon>DiscExplorer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\DiscExplorer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Network\Browser.Designer.vb">
+      <DependentUpon>Browser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Network\Browser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\LangLoader.vb" />
+    <Compile Include="Classes\md5.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Network\Store.Designer.vb">
+      <DependentUpon>Store.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Network\Store.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\BackgroundDownload.Designer.vb">
+      <DependentUpon>BackgroundDownload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\BackgroundDownload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\SystemDialog.Designer.vb">
+      <DependentUpon>SystemDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\SystemDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\FileBrowser.Designer.vb">
+      <DependentUpon>FileBrowser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\FileBrowser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\libZPlay.vb" />
+    <Compile Include="Players\MusicPlayer.Designer.vb">
+      <DependentUpon>MusicPlayer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Players\MusicPlayer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Players\PictureViewer.Designer.vb">
+      <DependentUpon>PictureViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Players\PictureViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\Boot.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\Boot.Designer.vb">
+      <DependentUpon>Boot.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\Functions.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PSMenu.Designer.vb">
+      <DependentUpon>PSMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PSMenu.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setup\SetupXMB.Designer.vb">
+      <DependentUpon>SetupXMB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Setup\SetupXMB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setup\SetupXMB_SecondPart.Designer.vb">
+      <DependentUpon>SetupXMB_SecondPart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Setup\SetupXMB_SecondPart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\StartUpHook.Designer.vb">
+      <DependentUpon>StartUpHook.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\StartUpHook.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Players\VideoPlayer.Designer.vb">
+      <DependentUpon>VideoPlayer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Players\VideoPlayer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Launchers\XMB.Designer.vb">
+      <DependentUpon>XMB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Launchers\XMB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\ToolStripOverride.vb" />
+    <Compile Include="Classes\Win32_Process.vb">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Launchers\Appearence.resx">
+      <DependentUpon>Appearence.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Launchers\Properties.resx">
+      <DependentUpon>Properties.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Launchers\XMBDesk.resx">
+      <DependentUpon>XMBDesk.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\Lockscreen.resx">
+      <DependentUpon>Lockscreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setup\NewSetup_SecondPart.resx">
+      <DependentUpon>NewSetup_SecondPart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setup\NewSetup.resx">
+      <DependentUpon>NewSetup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\DiscExplorer.resx">
+      <DependentUpon>DiscExplorer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Network\Browser.resx">
+      <DependentUpon>Browser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Network\Store.resx">
+      <DependentUpon>Store.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\BackgroundDownload.resx">
+      <DependentUpon>BackgroundDownload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\SystemDialog.resx">
+      <DependentUpon>SystemDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\FileBrowser.resx">
+      <DependentUpon>FileBrowser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Players\MusicPlayer.resx">
+      <DependentUpon>MusicPlayer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Players\PictureViewer.resx">
+      <DependentUpon>PictureViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\Boot.resx">
+      <DependentUpon>Boot.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PSMenu.resx">
+      <DependentUpon>PSMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setup\SetupXMB.resx">
+      <DependentUpon>SetupXMB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setup\SetupXMB_SecondPart.resx">
+      <DependentUpon>SetupXMB_SecondPart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\StartUpHook.resx">
+      <DependentUpon>StartUpHook.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Players\VideoPlayer.resx">
+      <DependentUpon>VideoPlayer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Launchers\XMB.resx">
+      <DependentUpon>XMB.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Release\xmb.avi" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons.3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow-Next-3-icon.png" />
+    <None Include="Resources\1396112114_user_male2.png" />
+    <None Include="bin\Release\media\Covers\Diablo-III %28US%29.png" />
+    <None Include="Resources\Purple-Abstract-Wallpaper.jpg" />
+    <None Include="Resources\Windows-7-Official-Pastel-Aurora-windows-7-wallpapers-windows-wallpapers-computer-wallpapers-1920x1080.jpg" />
+    <None Include="Resources\next-2-icon.png" />
+    <None Include="Resources\search-icon.png" />
+    <Content Include="xmbpclogogrey.ico" />
+    <None Include="Resources\game_tex_default_dxt.png" />
+    <None Include="Resources\Icons.11.png" />
+    <None Include="Resources\new_user_h.png" />
+    <None Include="Resources\update_icon.png" />
+    <None Include="Resources\update_icon_h.png" />
+    <None Include="Resources\ps2folder.png" />
+    <None Include="Resources\ps2loader.png" />
+    <None Include="Resources\psbg.png" />
+    <None Include="Resources\xmb_inspired_wallpaper_by_zero86_sk-d2z8usy.png" />
+    <None Include="Resources\circle.png" />
+    <None Include="Resources\cross1.png" />
+    <None Include="Resources\rectangle.png" />
+    <None Include="Resources\discnameless.png" />
+    <None Include="Resources\ps1disc.png" />
+    <None Include="Resources\ps2disc.png" />
+    <None Include="Resources\clockbg.png" />
+    <None Include="Resources\star.png" />
+    <None Include="Resources\platinum.png" />
+    <None Include="Resources\YouTube-icon.png" />
+    <None Include="Resources\webbartop.png" />
+    <None Include="Resources\browserbgmenu.png" />
+    <None Include="Resources\Avatar.png" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\friendsonline.png" />
+    <None Include="Resources\help_filebrowser.png" />
+    <None Include="Resources\help_videomusic_player.png" />
+    <None Include="Resources\help_pictureviewer.png" />
+    <None Include="Resources\help_browser.png" />
+    <None Include="Resources\help_xmb.png" />
+    <None Include="Resources\YouTube-icon1.png" />
+    <Content Include="multilogo.ico" />
+    <Content Include="newicologo.ico" />
+    <None Include="Resources\summerbg.png" />
+    <None Include="Resources\summerbg1.png" />
+    <None Include="Resources\power.png" />
+    <None Include="Resources\power_h.png" />
+    <None Include="Resources\xmbbg.jpg" />
+    <None Include="Resources\gba.png" />
+    <None Include="Resources\nes.png" />
+    <None Include="Resources\ps1.png" />
+    <None Include="Resources\ps2.png" />
+    <None Include="Resources\snes.png" />
+    <None Include="Resources\psp.png" />
+    <None Include="Resources\sega.png" />
+    <None Include="Resources\gbc.png" />
+    <None Include="Resources\retro.png" />
+    <None Include="Resources\xmb tribute 31.jpg" />
+    <None Include="Resources\xmbpclogo.png" />
+    <None Include="Resources\xstore.png" />
+    <None Include="Resources\notbox.png" />
+    <None Include="Resources\trophy128_tex_grade_platinum.png" />
+    <None Include="Resources\snesi.png" />
+    <None Include="Resources\snd_trophy.wav" />
+    <None Include="Resources\Actions-go-next-icon.png" />
+    <None Include="Resources\Actions-go-previous-icon.png" />
+    <None Include="Resources\updateav.png" />
+    <None Include="Resources\addons-icon.png" />
+    <None Include="Resources\Radio-Metal-Alt-128.png" />
+    <None Include="Resources\simpleblue.jpg" />
+    <None Include="Resources\NintendoLogo.png" />
+    <None Include="Resources\gcm.png" />
+    <None Include="Resources\nds.png" />
+    <None Include="Resources\wii.png" />
+    <None Include="Resources\wii1.png" />
+    <None Include="Resources\abwpp.jpg" />
+    <None Include="Resources\folderbr.png" />
+    <None Include="Resources\Status-battery-040-icon.png" />
+    <None Include="Resources\Status-battery-060-icon.png" />
+    <None Include="Resources\Status-battery-080-icon.png" />
+    <None Include="Resources\Status-battery-100-icon.png" />
+    <None Include="Resources\Status-battery-caution-icon.png" />
+    <None Include="Resources\Status-battery-charging-040-icon.png" />
+    <None Include="Resources\Status-battery-charging-060-icon.png" />
+    <None Include="Resources\Status-battery-charging-080-icon.png" />
+    <None Include="Resources\Status-battery-charging-icon.png" />
+    <None Include="Resources\Status-battery-charging-low-icon.png" />
+    <None Include="Resources\Status-battery-low-icon.png" />
+    <None Include="Resources\browser-2-icon.png" />
+    <None Include="Resources\symbol-delete-icon.png" />
+    <None Include="Resources\taskbarbg.png" />
+    <None Include="Resources\taskbarbg1.png" />
+    <None Include="Resources\taskbarbg2.png" />
+    <None Include="Resources\Abstract-Wallpaper-HD.jpg" />
+    <None Include="Resources\Desktop-icon.png" />
+    <None Include="Resources\settings_theme_hover.png" />
+    <None Include="Resources\settings_theme.png" />
+    <None Include="Resources\PhotoDefault.png" />
+    <None Include="Resources\Game_Default_PS3.png" />
+    <None Include="Resources\tex_cp_repeat_hover1.png" />
+    <None Include="Resources\tex_cp_prev_hover1.png" />
+    <None Include="Resources\tex_cp_volume_hover.png" />
+    <None Include="Resources\tex_cp_vislizer_hover.png" />
+    <None Include="Resources\tex_cp_stop_hover.png" />
+    <None Include="Resources\tex_cp_shuffle_hover.png" />
+    <None Include="Resources\tex_cp_showinfo_hover.png" />
+    <None Include="Resources\tex_cp_searchf_hover.png" />
+    <None Include="Resources\tex_cp_searchb_hover.png" />
+    <None Include="Resources\tex_cp_repeat_hover.png" />
+    <None Include="Resources\tex_cp_prev_hover.png" />
+    <None Include="Resources\tex_cp_playlist_hover.png" />
+    <None Include="Resources\tex_cp_play_hover.png" />
+    <None Include="Resources\tex_cp_pause_hover.png" />
+    <None Include="Resources\tex_cp_next_hover.png" />
+    <None Include="Resources\tex_cp_delete_hover.png" />
+    <None Include="Resources\tex_cp_volume_focus.png" />
+    <None Include="Resources\tex_stop_status.png" />
+    <None Include="Resources\tex_shuffle_status.png" />
+    <None Include="Resources\tex_searchf_status.png" />
+    <None Include="Resources\tex_searchb_status.png" />
+    <None Include="Resources\tex_repeat_status.png" />
+    <None Include="Resources\tex_prev_status.png" />
+    <None Include="Resources\tex_play_status.png" />
+    <None Include="Resources\tex_pause_status.png" />
+    <None Include="Resources\tex_next_status1.png" />
+    <None Include="Resources\tex_cp_pause_shadow.png" />
+    <None Include="Resources\tex_wma.png" />
+    <None Include="Resources\tex_pcm.png" />
+    <None Include="Resources\tex_mp3.png" />
+    <None Include="Resources\tex_cdda.png" />
+    <None Include="Resources\tex_atrac.png" />
+    <None Include="Resources\tex_aac.png" />
+    <None Include="Resources\tex_cp_play1.png" />
+    <None Include="Resources\tex_cp_play_focus.png" />
+    <None Include="Resources\tex_cp_shuffle.png" />
+    <None Include="Resources\tex_cp_repeat.png" />
+    <None Include="Resources\tex_cp_showinfo.png" />
+    <None Include="Resources\tex_cp_delete.png" />
+    <None Include="Resources\tex_cp_playlist.png" />
+    <None Include="Resources\tex_cp_vislizer.png" />
+    <None Include="Resources\tex_cp_volume.png" />
+    <None Include="Resources\tex_cp_stop.png" />
+    <None Include="Resources\tex_cp_pause.png" />
+    <None Include="Resources\tex_cp_play.png" />
+    <None Include="Resources\tex_cp_searchb.png" />
+    <None Include="Resources\tex_cp_next.png" />
+    <None Include="Resources\tex_cp_searchf.png" />
+    <None Include="Resources\tex_cp_prev.png" />
+    <None Include="Resources\tex_next_status.png" />
+    <None Include="Resources\display.png" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\addtoplaylist.png" />
+    <None Include="Resources\visualplayer.png" />
+    <None Include="Resources\sound.png" />
+    <None Include="Resources\shuffle.png" />
+    <None Include="Resources\repeat.png" />
+    <None Include="Resources\back.png" />
+    <None Include="Resources\forward.png" />
+    <None Include="Resources\fbackwards.png" />
+    <None Include="Resources\fforwards.png" />
+    <None Include="Resources\stop.png" />
+    <None Include="Resources\pause.png" />
+    <None Include="Resources\play.png" />
+    <None Include="Resources\disc_nameless.png" />
+    <None Include="Resources\VideoDefault2.png" />
+    <None Include="Resources\VideoDefault1.png" />
+    <None Include="Resources\VideoDefault.png" />
+    <None Include="Resources\friends_icon.png" />
+    <None Include="Resources\browser_icon.png" />
+    <None Include="Resources\games_icon.png" />
+    <None Include="Resources\video_icon.png" />
+    <None Include="Resources\music_icon.png" />
+    <None Include="Resources\pictures_icon.png" />
+    <None Include="Resources\settings_icon.png" />
+    <None Include="Resources\home_icon.png" />
+    <None Include="Resources\MusicDefault.png" />
+    <None Include="Resources\Devices-media-optical-icon.png" />
+    <None Include="Resources\square.png" />
+    <None Include="Resources\me_user_hover.png" />
+    <None Include="Resources\beta_bg.png" />
+    <None Include="Resources\me_user.png" />
+    <None Include="Resources\new_user.png" />
+    <None Include="Resources\PS3_13_WirelessCntlrPSbtn.png" />
+    <None Include="Resources\PS3_12_WirelessCntlrConnect.png" />
+    <None Include="Resources\turn_off_system_selcted.png" />
+    <None Include="Resources\turn_off_controller_selected.png" />
+    <None Include="Resources\quit_game_selected.png" />
+    <None Include="Resources\controller_settings_selected.png" />
+    <None Include="Resources\turn_off_controller2.png" />
+    <None Include="Resources\turn_off_controller.png" />
+    <None Include="Resources\turn_off_system.png" />
+    <None Include="Resources\controller_settings.png" />
+    <None Include="Resources\quit_game.png" />
+    <None Include="Resources\ps_button_bg_final.png" />
+    <None Include="Resources\cross.png" />
+    <None Include="Resources\PS3-sixaxis-icon1.png" />
+    <None Include="Resources\PS3-sixaxis-icon.png" />
+    <None Include="Resources\Icons.9.png" />
+    <None Include="Resources\Icons.18.png" />
+    <None Include="Resources\Icons.39.png" />
+    <None Include="Resources\Icons.38.png" />
+    <None Include="Resources\Icons.35.png" />
+    <None Include="Resources\Icons.16.png" />
+    <None Include="Resources\Icons.1.png" />
+    <None Include="Resources\Icons.6.png" />
+    <None Include="Resources\Icons.31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="SHDocVw">
+      <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Shell32">
+      <Guid>{50A7E9B0-70EF-11D1-B75A-00A0C90564FE}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

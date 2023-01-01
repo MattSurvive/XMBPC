@@ -1,0 +1,592 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="help_pictureviewer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help_pictureviewer.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Game_Default_PS3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Game_Default_PS3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xstore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xstore.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="browserbgmenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\browserbgmenu.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arrow-Next-3-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arrow-Next-3-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS3_13_WirelessCntlrPSbtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS3_13_WirelessCntlrPSbtn.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="me_user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\me_user.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="power_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\power_h.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_delete_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_delete_hover.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help_filebrowser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help_filebrowser.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="me_user_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\me_user_hover.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="retro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\retro.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings_icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="circle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circle.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="quit_game_selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quit_game_selected.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="browser_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\browser_icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status-battery-charging-low-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status-battery-charging-low-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_delete.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xmb tribute 31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xmb tribute 31.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sega.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ps1disc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ps1disc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_play_status" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_play_status.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xmbpclogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xmbpclogo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_shuffle_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_shuffle_hover.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="notbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\notbox.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="turn_off_controller" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\turn_off_controller.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="taskbarbg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\taskbarbg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snesi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snesi.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_playlist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_playlist.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_stop.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nes.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cdda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cdda.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VideoDefault" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VideoDefault2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="update_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\update_icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_mp3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_mp3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="turn_off_system" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\turn_off_system.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_play" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_play.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="updateav" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\updateav.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gbc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gbc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_shuffle_status" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_shuffle_status.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="addons-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addons-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="controller_settings_selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\controller_settings_selected.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home_icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wii" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wii.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_volume" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_volume.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="update_icon_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\update_icon_h.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="new_user_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new_user_h.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="next-2-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\next-2-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status-battery-charging-060-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status-battery-charging-060-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_volume_focus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_volume_focus.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="psbg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\psbg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cross1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cross1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_pause_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_pause_hover.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status-battery-low-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status-battery-low-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status-battery-charging-040-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status-battery-charging-040-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gba.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_prev_status" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_prev_status.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PhotoDefault" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PhotoDefault.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="taskbarbg2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\taskbarbg2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="quit_game" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quit_game.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trophy128_tex_grade_platinum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trophy128_tex_grade_platinum.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_searchb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_searchb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="video_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\video_icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_showinfo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_showinfo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_wma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_wma.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_shuffle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_shuffle.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status-battery-caution-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status-battery-caution-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_aac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_aac.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_searchb_status" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_searchb_status.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="music_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\music_icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_searchf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_searchf.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ps1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ps1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status-battery-charging-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status-battery-charging-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Actions-go-next-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Actions-go-next-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_searchf_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_searchf_hover.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_play1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_play1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="friends_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\friends_icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nds.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_repeat_status" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_repeat_status.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="turn_off_system_selcted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\turn_off_system_selcted.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Actions-go-previous-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Actions-go-previous-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status-battery-060-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status-battery-060-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_volume_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_volume_hover.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_atrac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_atrac.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_stop_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_stop_hover.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="symbol-delete-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\symbol-delete-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_pause_status" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_pause_status.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_vislizer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_vislizer.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snes.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clockbg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clockbg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_next" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_next.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_searchb_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_searchb_hover.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_next_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_next_hover.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="taskbarbg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\taskbarbg1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_play_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_play_hover.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status-battery-080-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status-battery-080-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ps2disc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ps2disc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folderbr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folderbr.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shuffle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shuffle.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="square" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rectangle.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_tex_default_dxt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_tex_default_dxt.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Desktop-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Desktop-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_prev" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_prev.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icons1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icons.31.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diablo-III (US)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Release\media\Covers\Diablo-III (US).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_playlist_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_playlist_hover.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ps2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ps2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help_xmb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help_xmb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_vislizer_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_vislizer_hover.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_searchf_status" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_searchf_status.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status-battery-040-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status-battery-040-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MusicDefault" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MusicDefault.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="browser-2-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\browser-2-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gcm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gcm.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="turn_off_controller_selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\turn_off_controller_selected.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ps_button_bg_final" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ps_button_bg_final.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="controller_settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\controller_settings.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_repeat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_repeat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ps2loader" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ps2loader.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_pcm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_pcm.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NintendoLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NintendoLogo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings_theme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings_theme.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings_theme_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings_theme_hover.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS3_12_WirelessCntlrConnect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS3_12_WirelessCntlrConnect.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Radio-Metal-Alt-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Radio-Metal-Alt-128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="power" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\power.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YouTube-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\YouTube-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="friendsonline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\friendsonline.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_play_focus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_play_focus.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wii1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wii1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_trophy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snd_trophy.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="platinum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\platinum.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icons.11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icons.11.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_repeat_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_repeat_hover1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status-battery-100-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status-battery-100-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="turn_off_controller2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\turn_off_controller2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_next_status1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_next_status1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_prev_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_prev_hover1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="webbartop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\webbartop.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Windows-7-Official-Pastel-Aurora-windows-7-wallpapers-windows-wallpapers-computer-wallpapers-1920x1080" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows-7-Official-Pastel-Aurora-windows-7-wallpapers-windows-wallpapers-computer-wallpapers-1920x1080.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="psp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\psp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_stop_status" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_stop_status.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Avatar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status-battery-charging-080-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Status-battery-charging-080-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help_videomusic_player" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help_videomusic_player.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="disc_nameless" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\discnameless.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_next_status" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_next_status.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_showinfo_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_showinfo_hover.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1396112114_user_male2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1396112114_user_male2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pictures_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pictures_icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ps2folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ps2folder.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help_browser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help_browser.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="star" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\star.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tex_cp_pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tex_cp_pause.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="games_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\games_icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
